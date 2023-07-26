@@ -1,0 +1,29 @@
+@media(min-width:320px){
+    .card-col{
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+@media(min-width:660px){
+    .card-col{
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+@media(min-width:960px){
+    .card-col{
+        width:30%;
+        padding: 10px;
+    } 
+    .card-row{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        
+    }
+}
